@@ -343,7 +343,7 @@ function shareText(score) {
     SubmitResults();
     if (score <= 49) return '这破玩意儿';
     if (score <= 99) return '我都讲过多少遍了';
-    if (score <= 149) return '很有意思';
+    if (score <= 149) return '天天乐呵呵的';
     if (score <= 199) return '您';
     return '人？';
 }
